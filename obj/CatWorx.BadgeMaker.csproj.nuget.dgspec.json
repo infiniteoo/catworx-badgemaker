@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\troyd\\bootcamp\\projects\\c#\\catworx-badgemaker\\CatWorx.BadgeMaker\\CatWorx.BadgeMaker.csproj": {}
+    "C:\\Users\\troyd\\bootcamp\\projects\\c#\\catworx-badgemaker\\CatWorx.BadgeMaker.csproj": {}
   },
   "projects": {
-    "C:\\Users\\troyd\\bootcamp\\projects\\c#\\catworx-badgemaker\\CatWorx.BadgeMaker\\CatWorx.BadgeMaker.csproj": {
+    "C:\\Users\\troyd\\bootcamp\\projects\\c#\\catworx-badgemaker\\CatWorx.BadgeMaker.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\troyd\\bootcamp\\projects\\c#\\catworx-badgemaker\\CatWorx.BadgeMaker\\CatWorx.BadgeMaker.csproj",
+        "projectUniqueName": "C:\\Users\\troyd\\bootcamp\\projects\\c#\\catworx-badgemaker\\CatWorx.BadgeMaker.csproj",
         "projectName": "CatWorx.BadgeMaker",
-        "projectPath": "C:\\Users\\troyd\\bootcamp\\projects\\c#\\catworx-badgemaker\\CatWorx.BadgeMaker\\CatWorx.BadgeMaker.csproj",
+        "projectPath": "C:\\Users\\troyd\\bootcamp\\projects\\c#\\catworx-badgemaker\\CatWorx.BadgeMaker.csproj",
         "packagesPath": "C:\\Users\\troyd\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\troyd\\bootcamp\\projects\\c#\\catworx-badgemaker\\CatWorx.BadgeMaker\\obj\\",
+        "outputPath": "C:\\Users\\troyd\\bootcamp\\projects\\c#\\catworx-badgemaker\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\troyd\\AppData\\Roaming\\NuGet\\NuGet.Config"
