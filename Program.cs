@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace CatWorx.BadgeMaker
 {
@@ -6,24 +7,36 @@ namespace CatWorx.BadgeMaker
     {
         static void Main(string[] args)
         {
-            String onedex = "blah";
-            String greeting = "Hello";
-            greeting = greeting + "World";
-            Console.WriteLine("greeting" + greeting);
-            Console.WriteLine($"greeting {greeting}");
-            Console.WriteLine("greeting: {0} {1}{0}", greeting, onedex);
-            double side = 3.14;
-            double area = side * side;
-            Console.WriteLine("area: {0}", area);
-            Console.WriteLine("area is a {0}", area.GetType());
-            bool isCold = true;
-            Console.WriteLine(isCold ? "drink" : "add ice");  // output: drink
-            Console.WriteLine(!isCold ? "drink" : "add ice");  // output: add ice
-            string[] favFoods = new string[3] { "pizza", "doughnuts", "icecream" };
-            string firstFood = favFoods[0];
-            string secondFood = favFoods[1];
-            string thirdFood = favFoods[2];
-            Console.WriteLine("I like {0}, {1}, and {2}", firstFood, secondFood, thirdFood);
+            List<string> employees = GetEmployees();
+            PrintEmployees(employees);
+        }
+
+        static List<string> GetEmployees()
+        {
+            // I will return a List of strings
+            List<string> employees = new List<string>();
+            // collects user values until the value is an empty string
+            while (true)
+            {
+                Console.WriteLine("Please enter a name (leave empty to exit): ");
+                // get a name from the console and assign it to a variable
+                string input = Console.ReadLine();
+                if (input == "")
+                {
+                    break;
+                }
+                Employee currentEmployee = new Employee(input, "Smith");
+                employees.Add(currentEmployee.GetName());
+            }
+            return employees;
+        }
+
+        static void PrintEmployees(List<string> employees)
+        {
+            for (int i = 0; i < employees.Count; i++)
+            {
+                Console.WriteLine(employees[i]);
+            }
         }
     }
 }
