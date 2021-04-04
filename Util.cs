@@ -62,7 +62,7 @@ namespace CatWorx.BadgeMaker
             int EMPLOYEE_ID_START_X = 0;
             int EMPLOYEE_ID_START_Y = 690;
             int EMPLOYEE_ID_WIDTH = BADGE_WIDTH;
-            int EMPLOYEE_ID_HEIGHT = 100;
+           /*  int EMPLOYEE_ID_HEIGHT = 100; */
 
             StringFormat format = new StringFormat();
             format.Alignment = StringAlignment.Center;
